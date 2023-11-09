@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garbage Classification Result</title>
+</head>
+<body>
+    <h1>Garbage Classification Result</h1>
+
+    {% if text %}
+        <h2>{{ text }}</h2>
+    {% endif %}
+
+    <a href="{{ url_for('index') }}">Upload Another Image</a>
+</body>
+</html>
